@@ -12,7 +12,7 @@ const initialState = {
   searchKeyword: "",
   showUI: "home-view",
 };
-
+// reducer function
 const reducer = (state, action) => {
   switch (action.type) {
     case "load-recipes":
